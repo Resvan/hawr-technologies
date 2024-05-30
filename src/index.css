@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  place-items: center;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Urbanist', sans-serif;
+}
+
+.animated-circles {
+  animation: pulseAnimation 2s infinite;
+}
+
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@keyframes runningBackground {
+  0% {
+    background-position: 0% 50%;
+    /* Start position (left side) */
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+    /* End position (right side) */
+  }
+}
