@@ -87,7 +87,7 @@ function App() {
             <img src={TextDec} className='animated-circles' alt="" />
             <Typography component='h3' variant='h3' sx={{
               fontFamily: 'Poppins',
-
+              fontSize: { xs: '32px', md: '42px' },
             }}>Site Under Maintenance</Typography>
             <img className='animated-circles' src={TextDec} alt="" />
           </Box>
